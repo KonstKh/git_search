@@ -1,0 +1,11 @@
+.footer{ 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--bckgColor);
+    color: var(--fontColor);
+    height: var(--footerHeight);
+    text-align: center;
+    padding: 1rem;
+}

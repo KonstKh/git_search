@@ -1,0 +1,14 @@
+/* @custom-media --small-viewport (max-width: 30em); */
+
+.header{
+    box-sizing: border-box;
+    margin: 0 auto;
+    height: 100px;
+    background-color: var(--bckgColor);
+    color: var(--fontColor);
+    text-align: center;
+    padding: 1em;
+    /* @media (--small-viewport){
+        background-color: red;
+    } */
+}

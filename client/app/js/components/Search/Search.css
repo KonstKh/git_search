@@ -1,0 +1,27 @@
+
+.search {
+    padding: 10px 20px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.searchInput {
+    width: 180px;
+    height: 30px;
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+input::placeholder{
+    font-size: 18px;
+    color: var(--bckgColor);
+}
+
+.searchButton {
+    background: var(--bckgColor);
+    color: #FFF;
+    font-size: 18px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 10px;
+}

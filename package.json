@@ -1,0 +1,27 @@
+{
+  "name": "github-search",
+  "version": "0.0.1",
+  "description": "github search",
+  "author": "Konstantin",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "4.0.0",
+    "eslint-plugin-react": "6.9.0"
+  }
+}
