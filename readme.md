@@ -1,9 +1,9 @@
-This is a test project 
+This is a test project for search user data and starred reopsitories on github. 
 
 ## Table of Contents
-- [Installation] (#installation)
-- [Structure] (#structure)
-- [Road Map] (#roadmap)
+- [Installation](#Installation)
+- [Structure](#Structure)
+- [Road Map](#Roadmap)
 
 ## Installation
  Make sure that you have installed node and yarn or npm packages on you machine. `node -v`, `yarn -v`. Yarn and npm are equivalent tools and you can use whatever you like.
